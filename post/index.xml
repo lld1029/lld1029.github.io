@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on My New Hugo Site</title>
+    <link>https://lld1029.github.io/post/</link>
+    <description>Recent content in Posts on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 Feb 2021 11:29:18 +0800</lastBuildDate>
+    
+	<atom:link href="https://lld1029.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>配置</title>
+      <link>https://lld1029.github.io/post/blog/</link>
+      <pubDate>Fri, 26 Feb 2021 11:29:18 +0800</pubDate>
+      
+      <guid>https://lld1029.github.io/post/blog/</guid>
+      <description>配置 在config.toml文件中，在中定义以下变量params：
+author：作者姓名 description：作者简介 avatar：包含作者头像图像的文件的路径 menu_item_separator：每个菜单项之间的分隔符。允许HTML（默认：“-”） favicon：您的favicon.ico文件的绝对路径（默认值：“ / favicon.ico”） 要添加菜单项，请在中添加以下行menu：
+[[menu.main]] identifier = &amp;ldquo;tags&amp;rdquo; name = &amp;ldquo;Tags&amp;rdquo; url = &amp;ldquo;/tags/&amp;rdquo;
+要添加社交链接，请在中添加以下行params：
+[[params.social]] name = &amp;ldquo;github&amp;rdquo; url = &amp;ldquo;https://github.com/vaga&amp;quot; 要更改主题颜色，请在中添加以下行params：
+[params.style] darkestColor = &amp;ldquo;#d35050&amp;rdquo; darkColor = &amp;ldquo;#212121&amp;rdquo; lightColor = &amp;ldquo;#f5e3e0&amp;rdquo; lightestColor = &amp;ldquo;#f5f5f5&amp;rdquo; primaryColor = &amp;ldquo;#fff&amp;rdquo; 如果需要以上主题颜色，则可以查看exampleSite / config.toml文件。
+造型 要使用SCSS覆盖样式，添加一个名为_extra.scss来{your site directory}/assets/css/
+注意：Hugo版本有两个版本，hugo和hugo_extended。您需要hugo_extended自动编译您的scss。</description>
+    </item>
+    
+  </channel>
+</rss>

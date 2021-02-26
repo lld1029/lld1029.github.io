@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <title>配置 // My New Hugo Site</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.63.2" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="John Doe" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="https://lld1029.github.io/css/main.min.88e7083eff65effb7485b6e6f38d10afbec25093a6fac42d734ce9024d3defbd.css" />
+
+    
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="配置"/>
+<meta name="twitter:description" content="配置 在config.toml文件中，在中定义以下变量params：
+author：作者姓名 description：作者简介 avatar：包含作者头像图像的文件的路径 menu_item_separator：每个菜单项之间的分隔符。允许HTML（默认：“-”） favicon：您的favicon.ico文件的绝对路径（默认值：“ / favicon.ico”） 要添加菜单项，请在中添加以下行menu：
+[[menu.main]] identifier = &ldquo;tags&rdquo; name = &ldquo;Tags&rdquo; url = &ldquo;/tags/&rdquo;
+要添加社交链接，请在中添加以下行params：
+[[params.social]] name = &ldquo;github&rdquo; url = &ldquo;https://github.com/vaga&quot; 要更改主题颜色，请在中添加以下行params：
+[params.style] darkestColor = &ldquo;#d35050&rdquo; darkColor = &ldquo;#212121&rdquo; lightColor = &ldquo;#f5e3e0&rdquo; lightestColor = &ldquo;#f5f5f5&rdquo; primaryColor = &ldquo;#fff&rdquo; 如果需要以上主题颜色，则可以查看exampleSite / config.toml文件。
+造型 要使用SCSS覆盖样式，添加一个名为_extra.scss来{your site directory}/assets/css/
+注意：Hugo版本有两个版本，hugo和hugo_extended。您需要hugo_extended自动编译您的scss。"/>
+
+    <meta property="og:title" content="配置" />
+<meta property="og:description" content="配置 在config.toml文件中，在中定义以下变量params：
+author：作者姓名 description：作者简介 avatar：包含作者头像图像的文件的路径 menu_item_separator：每个菜单项之间的分隔符。允许HTML（默认：“-”） favicon：您的favicon.ico文件的绝对路径（默认值：“ / favicon.ico”） 要添加菜单项，请在中添加以下行menu：
+[[menu.main]] identifier = &ldquo;tags&rdquo; name = &ldquo;Tags&rdquo; url = &ldquo;/tags/&rdquo;
+要添加社交链接，请在中添加以下行params：
+[[params.social]] name = &ldquo;github&rdquo; url = &ldquo;https://github.com/vaga&quot; 要更改主题颜色，请在中添加以下行params：
+[params.style] darkestColor = &ldquo;#d35050&rdquo; darkColor = &ldquo;#212121&rdquo; lightColor = &ldquo;#f5e3e0&rdquo; lightestColor = &ldquo;#f5f5f5&rdquo; primaryColor = &ldquo;#fff&rdquo; 如果需要以上主题颜色，则可以查看exampleSite / config.toml文件。
+造型 要使用SCSS覆盖样式，添加一个名为_extra.scss来{your site directory}/assets/css/
+注意：Hugo版本有两个版本，hugo和hugo_extended。您需要hugo_extended自动编译您的scss。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://lld1029.github.io/post/blog/" />
+<meta property="article:published_time" content="2021-02-26T11:29:18+08:00" />
+<meta property="article:modified_time" content="2021-02-26T11:29:18+08:00" />
+
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="https://lld1029.github.io"><img class="app-header-avatar" src="/avatar.jpg" alt="John Doe" /></a>
+      <h1>My New Hugo Site</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vehicula turpis sit amet elit pretium.</p>
+      <div class="app-header-social">
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">配置</h1>
+      <div class="post-meta">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <title>calendar</title>
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          Feb 26, 2021
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
+  <title>clock</title>
+  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+          1 min read
+        </div>
+      </div>
+    </header>
+    <div class="post-content">
+      <p>配置
+在config.toml文件中，在中定义以下变量params：</p>
+<p>author：作者姓名
+description：作者简介
+avatar：包含作者头像图像的文件的路径
+menu_item_separator：每个菜单项之间的分隔符。允许HTML（默认：“-”）
+favicon：您的favicon.ico文件的绝对路径（默认值：“ / favicon.ico”）
+要添加菜单项，请在中添加以下行menu：</p>
+<p>[[menu.main]]
+identifier = &ldquo;tags&rdquo;
+name = &ldquo;Tags&rdquo;
+url = &ldquo;/tags/&rdquo;</p>
+<p>要添加社交链接，请在中添加以下行params：</p>
+<p>[[params.social]]
+name = &ldquo;github&rdquo;
+url = &ldquo;<a href="https://github.com/vaga%22">https://github.com/vaga&quot;</a>
+要更改主题颜色，请在中添加以下行params：</p>
+<p>[params.style]
+darkestColor = &ldquo;#d35050&rdquo;
+darkColor = &ldquo;#212121&rdquo;
+lightColor = &ldquo;#f5e3e0&rdquo;
+lightestColor = &ldquo;#f5f5f5&rdquo;
+primaryColor = &ldquo;#fff&rdquo;
+如果需要以上主题颜色，则可以查看exampleSite / config.toml文件。</p>
+<p>造型
+要使用SCSS覆盖样式，添加一个名为_extra.scss来{your site directory}/assets/css/</p>
+<p>注意：Hugo版本有两个版本，hugo和hugo_extended。您需要hugo_extended自动编译您的scss。</p>
+
+    </div>
+    <div class="post-footer">
+      
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>
